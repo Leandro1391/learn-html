@@ -10,6 +10,14 @@
 
 <body>
 
+    <a href="#hipervinculo">Click aquí para ir hipervinculos</a>
+    <br>
+    <a href="#imagen">Click aquí para ir imágenes</a>
+    <br>
+    <a href="#tiposTexto">Click aquí para ir a tipos de texto</a>
+    <br>
+    <a href="#charref">Click aquí para ir carateres especiales</a>
+
     <h1 style="color:blue">Título h1</h1>
     <h2>Título h2</h2>
     <h3>Título h3</h3>
@@ -21,7 +29,9 @@
 
     <hr>
 
-    <p>test</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minus quas id quos quod facilis tempora quo quae officiis non dolor numquam, nulla saepe sunt mollitia cum dicta. Officia, rem.</p>
+
+    <p id='hipervinculo'>test hipervinculo</p>
     <p>otro</p>
     <strong>negrita</strong>
     <a href="https://www.google.com.ar" target="_blank">Sitio de google</a>
@@ -31,8 +41,9 @@
     <img src="img/html5.png" alt="Logo HTML5">
     <img src="img/css3.png" alt="CSS3">
     <img src="img/javascript.png" alt="javascript">
+
     <hr>
-    <img src="img/html5.png" alt='Logo HTML5' width=" 50px " height="30px " title='Logo HTML5'>
+    <img src="img/html5.png" alt='Logo HTML5' id='imagen' width=" 50px " height="30px " title='Logo HTML5'>
 
     <p title="Nuevo párrafo"> Este es nuestro <b>párrafo</b></p>
 
@@ -43,7 +54,7 @@
 
     <hr>
 
-    <p><b>My first parraph b</b></p>
+    <p id='tiposTexto'><b>My first parraph b</b></p>
     <p><strong>Second parraph strong</strong></p>
     <p><i>Third sentence i</i></p>
     <p><em>Foutrh sentence em</em></p>
@@ -57,7 +68,7 @@
     <hr>
     <!-- se realiza comando porque puede generar errores si se tipean en forma explicita -->
     <a href="https://dev.w3.org/html5/html-author/charref">dev.w3.org/html5/html-author/charref</a>
-    <p><code>Este es mi código</code></p>
+    <p id='charref'><code>Este es mi código</code></p>
     <p>&excl; símbolo de exclamación</p>
     <p>&#x00021; símbolo de exclamación hexadecimal</p>
     <p>&#33; símbolo de decimal</p>
@@ -70,17 +81,21 @@
 
 </html>
 
+<!-- IMPORTANTE: para que el motor de google se indexe apropiadamente (SEO - Search Engine Optimization) 
+    solamente hay que agregar un h1 en toda la página
+    h2 algunas veces como subitulos
+    h3 4 5 6 varias veces -->
+
+
 <!-- Los elementos contenidos en los tag titulos <h1></h1> generan todo un bloque y salto de linea -->
-<!-- etiqueta <p></p> es un parrafo, generan todo un bloque y salto de linea -->
+<!-- etiqueta <p></p> es un parrafo, generan todo un bloque y salto de linea (completan la linea) -->
+
 <!-- br salto de linea -->
 <!-- hr es horizontal rule agrega una linea horizontal -->
 <!-- etiqueta <a> es de hipervínculo pero no genera un bloque y salto de linea en el documento-->
 <!-- etiqueta <strong> no genera bloque y salto de linea -->
 <!-- etiqueta <img> no genera bloque y salto de linea - alt es alternative text -->
-<!-- la eitquta bold no genera bloque y salto de linea -->
+<!-- la eitquta bold <b> no genera bloque y salto de linea -->
 
 <!-- con el atributo title es un mouseover sober un elemento html -->
-<!-- pre respeta el texto html significa preformatted, un formato prestablecido -->
-<!-- pre respeta el texto html significa preformatted, un formato prestablecido -->
-
-<!-- TAREA: indexar con links la tarea y realizar la tarea de universidad HTML -->
+<!-- pre respeta el texto html significa preformatted, un formato prestablecido --
